@@ -25,7 +25,7 @@ namespace MyChat
             }
             catch (Exception ex)
             {
-                throw new Exception($"Failed to open the connection: {ex.Message}");
+                throw new Exception($"Falha ao abrir a conexão: {ex.Message}");
             }
         }
 
@@ -40,7 +40,7 @@ namespace MyChat
             }
             catch (Exception ex)
             {
-                throw new Exception($"Failed to close the connection: {ex.Message}");
+                throw new Exception($"Falha ao fechar a conexão: {ex.Message}");
             }
         }
     }

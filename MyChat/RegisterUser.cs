@@ -15,7 +15,7 @@ namespace MyChat
             // Validação das senhas
             if (PasswordUser != RepeatPasswordUser)
             {
-                throw new ArgumentException("Passwords do not match!");
+                throw new ArgumentException("As senhas não correspondem!");
             }
 
             Command.CommandText = "INSERT INTO RegisterUser (UserName, Email, PasswordUser, RepeatPasswordUser) VALUES (@UserName, @Email, @PasswordUser, @RepeatPasswordUser)";
@@ -28,11 +28,11 @@ namespace MyChat
             {
                 Command.Connection = Conexao.Conectar();
                 Command.ExecuteNonQuery();
-                MessageBox.Show("User registered successfully!");
+                MessageBox.Show("Usuário registrado com sucesso!");
             }
             catch (SqlException e)
             {
-                MessageBox.Show($"Error trying to connect to the database: {e.Message}");
+                MessageBox.Show($"Erro ao tentar se conectar ao banco de dados: {e.Message}");
             }
             finally
             {

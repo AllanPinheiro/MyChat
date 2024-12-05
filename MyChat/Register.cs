@@ -24,21 +24,21 @@ namespace MyChat
                 string.IsNullOrEmpty(registerPassword) ||
                 string.IsNullOrEmpty(registerRepeatPassword))
             {
-                MessageBox.Show("Please fill in all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Por favor, preencha todos os campos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             // Validação de e-mail
             if (!IsValidEmail(registerEmail))
             {
-                MessageBox.Show("Invalid email format.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Formato de e-mail inválido.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             // Verificar se as senhas coincidem
             if (registerPassword != registerRepeatPassword)
             {
-                MessageBox.Show("Passwords do not match.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("As senhas não correspondem.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -57,7 +57,7 @@ namespace MyChat
             catch (Exception ex)
             {
                 // Mostrar erro caso algo dê errado
-                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Ocorreu um erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

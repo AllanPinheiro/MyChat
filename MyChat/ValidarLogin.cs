@@ -35,16 +35,16 @@ namespace MyChat
 
                 if (count > 0)
                 {
-                    MessageBox.Show("Login successful!");
+                    MessageBox.Show("Login bem-sucedido!");
                 }
                 else
                 {
-                    MessageBox.Show("Invalid email or password.");
+                    MessageBox.Show("E-mail ou senha inválidos.");
                 }
             }
             catch (SqlException ex)
             {
-                MessageBox.Show($"Database connection error: {ex.Message}");
+                MessageBox.Show($"Erro de conexão do banco de dados: {ex.Message}");
             }
         }
     }
