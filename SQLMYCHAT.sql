@@ -1,0 +1,10 @@
+USE MyChat;
+
+CREATE TABLE RegisterUser (
+UserName VARCHAR(100) NOT NULL,
+Email VARCHAR(100) NOT NULL,
+PasswordUser VARCHAR(100) NOT NULL,
+RepeatPasswordUser VARCHAR(100) NOT NULL
+);
+
+SELECT * FROM RegisterUser;
