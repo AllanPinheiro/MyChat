@@ -41,7 +41,9 @@ namespace MyChat
             {
                 // Mensagem em caso de erro no login
                 MessageBox.Show($"Falha no login: {ex.Message}");
+                
             }
+
         }
     }
 }

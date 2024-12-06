@@ -10,19 +10,19 @@ namespace MyChat
         private readonly Conexao Conexao = new Conexao();
         private readonly SqlCommand Command = new SqlCommand();
 
-        public RegisterUser(string UserName, string Email, string PasswordUser, string RepeatPasswordUser)
+        public RegisterUser(string registerUser, string registerEmail, string registerPassword, string registerRepeatPassword)
         {
             // Validação das senhas
-            if (PasswordUser != RepeatPasswordUser)
+            if (registerPassword != registerRepeatPassword)
             {
                 throw new ArgumentException("As senhas não correspondem!");
             }
 
             Command.CommandText = "INSERT INTO RegisterUser (UserName, Email, PasswordUser, RepeatPasswordUser) VALUES (@UserName, @Email, @PasswordUser, @RepeatPasswordUser)";
-            Command.Parameters.AddWithValue("@UserName", UserName);
-            Command.Parameters.AddWithValue("@Email", Email);
-            Command.Parameters.AddWithValue("@PasswordUser", PasswordUser);
-            Command.Parameters.AddWithValue("@RepeatPasswordUser", RepeatPasswordUser);
+            Command.Parameters.AddWithValue("@UserName", registerUser);
+            Command.Parameters.AddWithValue("@Email", registerEmail);
+            Command.Parameters.AddWithValue("@PasswordUser", registerPassword);
+            Command.Parameters.AddWithValue("@RepeatPasswordUser", registerRepeatPassword);
 
             try
             {

@@ -55,22 +55,21 @@
             // txtLoginUser
             // 
             txtLoginUser.BorderStyle = BorderStyle.None;
-            txtLoginUser.Font = new Font("Segoe UI", 20.25F);
+            txtLoginUser.Font = new Font("Segoe UI", 18F);
             txtLoginUser.Location = new Point(12, 256);
-            txtLoginUser.Multiline = true;
             txtLoginUser.Name = "txtLoginUser";
-            txtLoginUser.Size = new Size(530, 46);
+            txtLoginUser.Size = new Size(530, 32);
             txtLoginUser.TabIndex = 1;
             txtLoginUser.TextAlign = HorizontalAlignment.Center;
             // 
             // txtLoginPassword
             // 
             txtLoginPassword.BorderStyle = BorderStyle.None;
-            txtLoginPassword.Font = new Font("Segoe UI", 20.25F);
+            txtLoginPassword.Font = new Font("Segoe UI", 18F);
             txtLoginPassword.Location = new Point(12, 333);
-            txtLoginPassword.Multiline = true;
             txtLoginPassword.Name = "txtLoginPassword";
-            txtLoginPassword.Size = new Size(530, 46);
+            txtLoginPassword.PasswordChar = '*';
+            txtLoginPassword.Size = new Size(530, 32);
             txtLoginPassword.TabIndex = 2;
             txtLoginPassword.TextAlign = HorizontalAlignment.Center;
             txtLoginPassword.UseSystemPasswordChar = true;
@@ -103,12 +102,14 @@
             // 
             // linkLabel1
             // 
+            linkLabel1.ActiveLinkColor = SystemColors.WindowText;
             linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 9F);
+            linkLabel1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
+            linkLabel1.LinkColor = SystemColors.WindowText;
             linkLabel1.Location = new Point(473, 434);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(69, 15);
+            linkLabel1.Size = new Size(68, 15);
             linkLabel1.TabIndex = 7;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Cadastra-se";
@@ -126,8 +127,11 @@
             // 
             // lblRecPassword
             // 
+            lblRecPassword.ActiveLinkColor = SystemColors.WindowText;
             lblRecPassword.AutoSize = true;
+            lblRecPassword.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             lblRecPassword.LinkBehavior = LinkBehavior.HoverUnderline;
+            lblRecPassword.LinkColor = SystemColors.WindowText;
             lblRecPassword.Location = new Point(12, 434);
             lblRecPassword.Name = "lblRecPassword";
             lblRecPassword.Size = new Size(94, 15);
@@ -140,7 +144,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label1.Location = new Point(12, 228);
+            label1.Location = new Point(17, 228);
             label1.Name = "label1";
             label1.Size = new Size(59, 25);
             label1.TabIndex = 10;
@@ -150,7 +154,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label2.Location = new Point(12, 305);
+            label2.Location = new Point(17, 305);
             label2.Name = "label2";
             label2.Size = new Size(64, 25);
             label2.TabIndex = 11;
@@ -172,7 +176,7 @@
             Controls.Add(txtLoginPassword);
             Controls.Add(txtLoginUser);
             Controls.Add(pictureBox1);
-            FormBorderStyle = FormBorderStyle.FixedDialog;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Form1";

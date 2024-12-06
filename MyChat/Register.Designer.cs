@@ -46,33 +46,30 @@
             // txtRegisterUser
             // 
             txtRegisterUser.BorderStyle = BorderStyle.None;
-            txtRegisterUser.Font = new Font("Segoe UI", 20.25F);
+            txtRegisterUser.Font = new Font("Segoe UI", 18F);
             txtRegisterUser.Location = new Point(9, 270);
-            txtRegisterUser.Multiline = true;
             txtRegisterUser.Name = "txtRegisterUser";
-            txtRegisterUser.Size = new Size(530, 46);
+            txtRegisterUser.Size = new Size(530, 32);
             txtRegisterUser.TabIndex = 0;
             txtRegisterUser.TextAlign = HorizontalAlignment.Center;
             // 
             // txtRegisterEmail
             // 
             txtRegisterEmail.BorderStyle = BorderStyle.None;
-            txtRegisterEmail.Font = new Font("Segoe UI", 20.25F);
+            txtRegisterEmail.Font = new Font("Segoe UI", 18F);
             txtRegisterEmail.Location = new Point(9, 347);
-            txtRegisterEmail.Multiline = true;
             txtRegisterEmail.Name = "txtRegisterEmail";
-            txtRegisterEmail.Size = new Size(530, 46);
+            txtRegisterEmail.Size = new Size(530, 32);
             txtRegisterEmail.TabIndex = 1;
             txtRegisterEmail.TextAlign = HorizontalAlignment.Center;
             // 
             // txtRegisterPassword
             // 
             txtRegisterPassword.BorderStyle = BorderStyle.None;
-            txtRegisterPassword.Font = new Font("Segoe UI", 20.25F);
+            txtRegisterPassword.Font = new Font("Segoe UI", 18F);
             txtRegisterPassword.Location = new Point(9, 424);
-            txtRegisterPassword.Multiline = true;
             txtRegisterPassword.Name = "txtRegisterPassword";
-            txtRegisterPassword.Size = new Size(530, 46);
+            txtRegisterPassword.Size = new Size(530, 32);
             txtRegisterPassword.TabIndex = 2;
             txtRegisterPassword.TextAlign = HorizontalAlignment.Center;
             txtRegisterPassword.UseSystemPasswordChar = true;
@@ -80,11 +77,10 @@
             // txtRegisterRepeatPassword
             // 
             txtRegisterRepeatPassword.BorderStyle = BorderStyle.None;
-            txtRegisterRepeatPassword.Font = new Font("Segoe UI", 20.25F);
+            txtRegisterRepeatPassword.Font = new Font("Segoe UI", 18F);
             txtRegisterRepeatPassword.Location = new Point(9, 501);
-            txtRegisterRepeatPassword.Multiline = true;
             txtRegisterRepeatPassword.Name = "txtRegisterRepeatPassword";
-            txtRegisterRepeatPassword.Size = new Size(530, 46);
+            txtRegisterRepeatPassword.Size = new Size(530, 32);
             txtRegisterRepeatPassword.TabIndex = 3;
             txtRegisterRepeatPassword.TextAlign = HorizontalAlignment.Center;
             txtRegisterRepeatPassword.UseSystemPasswordChar = true;
@@ -109,7 +105,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(9, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(533, 122);
+            pictureBox1.Size = new Size(530, 122);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
@@ -181,7 +177,7 @@
             Controls.Add(txtRegisterPassword);
             Controls.Add(txtRegisterEmail);
             Controls.Add(txtRegisterUser);
-            FormBorderStyle = FormBorderStyle.FixedDialog;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;

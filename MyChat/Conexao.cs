@@ -9,7 +9,7 @@ namespace MyChat
 
         public Conexao()
         {
-            // String de conexão centralizada (considere mover para arquivo de configuração no futuro)
+            // String de conexão 
             con = new SqlConnection("Data Source=DESKTOP-N6OGC4V\\SQLEXPRESS;Initial Catalog=MyChat;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
         }
 
