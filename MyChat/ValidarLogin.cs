@@ -8,26 +8,18 @@ namespace MyChat
     {
         private readonly Conexao conexao = new Conexao();
         private readonly SqlCommand cmd = new SqlCommand();
-
         private readonly string emailUser;
         private readonly string passwordUser;
-
         public ValidarLogin(string emailUser, string passwordUser)
         {
             this.emailUser = emailUser;
             this.passwordUser = passwordUser;
-
-            cmd.CommandText = @"SELECT COUNT(1) 
-                                FROM RegisterUser 
-                                WHERE Email = @Email AND PasswordUser = @PasswordUser";
-
+            cmd.CommandText = @"SELECT COUNT(1) FROM RegisterUser WHERE Email = @Email AND PasswordUser = @PasswordUser";
             cmd.Parameters.AddWithValue("@Email", emailUser);
             cmd.Parameters.AddWithValue("@PasswordUser", passwordUser);
-
             try
             {
                 cmd.Connection = conexao.Conectar();
-
                 // Usando ExecuteScalar para contar resultados
                 int count = Convert.ToInt32(cmd.ExecuteScalar());
 
