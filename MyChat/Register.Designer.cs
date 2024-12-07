@@ -47,9 +47,9 @@
             // 
             txtRegisterUser.BorderStyle = BorderStyle.None;
             txtRegisterUser.Font = new Font("Segoe UI", 18F);
-            txtRegisterUser.Location = new Point(9, 270);
+            txtRegisterUser.Location = new Point(49, 270);
             txtRegisterUser.Name = "txtRegisterUser";
-            txtRegisterUser.Size = new Size(530, 32);
+            txtRegisterUser.Size = new Size(453, 32);
             txtRegisterUser.TabIndex = 0;
             txtRegisterUser.TextAlign = HorizontalAlignment.Center;
             // 
@@ -57,9 +57,9 @@
             // 
             txtRegisterEmail.BorderStyle = BorderStyle.None;
             txtRegisterEmail.Font = new Font("Segoe UI", 18F);
-            txtRegisterEmail.Location = new Point(9, 347);
+            txtRegisterEmail.Location = new Point(49, 347);
             txtRegisterEmail.Name = "txtRegisterEmail";
-            txtRegisterEmail.Size = new Size(530, 32);
+            txtRegisterEmail.Size = new Size(453, 32);
             txtRegisterEmail.TabIndex = 1;
             txtRegisterEmail.TextAlign = HorizontalAlignment.Center;
             // 
@@ -67,9 +67,9 @@
             // 
             txtRegisterPassword.BorderStyle = BorderStyle.None;
             txtRegisterPassword.Font = new Font("Segoe UI", 18F);
-            txtRegisterPassword.Location = new Point(9, 424);
+            txtRegisterPassword.Location = new Point(49, 424);
             txtRegisterPassword.Name = "txtRegisterPassword";
-            txtRegisterPassword.Size = new Size(530, 32);
+            txtRegisterPassword.Size = new Size(453, 32);
             txtRegisterPassword.TabIndex = 2;
             txtRegisterPassword.TextAlign = HorizontalAlignment.Center;
             txtRegisterPassword.UseSystemPasswordChar = true;
@@ -78,9 +78,9 @@
             // 
             txtRegisterRepeatPassword.BorderStyle = BorderStyle.None;
             txtRegisterRepeatPassword.Font = new Font("Segoe UI", 18F);
-            txtRegisterRepeatPassword.Location = new Point(9, 501);
+            txtRegisterRepeatPassword.Location = new Point(49, 501);
             txtRegisterRepeatPassword.Name = "txtRegisterRepeatPassword";
-            txtRegisterRepeatPassword.Size = new Size(530, 32);
+            txtRegisterRepeatPassword.Size = new Size(453, 32);
             txtRegisterRepeatPassword.TabIndex = 3;
             txtRegisterRepeatPassword.TextAlign = HorizontalAlignment.Center;
             txtRegisterRepeatPassword.UseSystemPasswordChar = true;
@@ -92,9 +92,9 @@
             btnRegister.FlatAppearance.BorderSize = 0;
             btnRegister.FlatStyle = FlatStyle.Flat;
             btnRegister.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegister.Location = new Point(9, 553);
+            btnRegister.Location = new Point(49, 553);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(530, 46);
+            btnRegister.Size = new Size(453, 46);
             btnRegister.TabIndex = 4;
             btnRegister.Text = "Cadastrar";
             btnRegister.UseVisualStyleBackColor = false;
@@ -103,7 +103,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(9, 12);
+            pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(530, 122);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -114,7 +114,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(148, 137);
+            label7.Location = new Point(148, 136);
             label7.Name = "label7";
             label7.Size = new Size(270, 86);
             label7.TabIndex = 13;
@@ -124,7 +124,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label1.Location = new Point(12, 242);
+            label1.Location = new Point(49, 242);
             label1.Name = "label1";
             label1.Size = new Size(159, 25);
             label1.TabIndex = 14;
@@ -134,7 +134,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label2.Location = new Point(12, 319);
+            label2.Location = new Point(49, 319);
             label2.Name = "label2";
             label2.Size = new Size(59, 25);
             label2.TabIndex = 15;
@@ -144,7 +144,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label3.Location = new Point(12, 396);
+            label3.Location = new Point(49, 396);
             label3.Name = "label3";
             label3.Size = new Size(64, 25);
             label3.TabIndex = 16;
@@ -154,7 +154,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label4.Location = new Point(12, 473);
+            label4.Location = new Point(49, 473);
             label4.Name = "label4";
             label4.Size = new Size(128, 25);
             label4.TabIndex = 17;

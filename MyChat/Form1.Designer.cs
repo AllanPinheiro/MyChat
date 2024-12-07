@@ -56,9 +56,9 @@
             // 
             txtLoginUser.BorderStyle = BorderStyle.None;
             txtLoginUser.Font = new Font("Segoe UI", 18F);
-            txtLoginUser.Location = new Point(12, 256);
+            txtLoginUser.Location = new Point(52, 266);
             txtLoginUser.Name = "txtLoginUser";
-            txtLoginUser.Size = new Size(530, 32);
+            txtLoginUser.Size = new Size(450, 32);
             txtLoginUser.TabIndex = 1;
             txtLoginUser.TextAlign = HorizontalAlignment.Center;
             // 
@@ -66,10 +66,10 @@
             // 
             txtLoginPassword.BorderStyle = BorderStyle.None;
             txtLoginPassword.Font = new Font("Segoe UI", 18F);
-            txtLoginPassword.Location = new Point(12, 333);
+            txtLoginPassword.Location = new Point(52, 343);
             txtLoginPassword.Name = "txtLoginPassword";
             txtLoginPassword.PasswordChar = '*';
-            txtLoginPassword.Size = new Size(530, 32);
+            txtLoginPassword.Size = new Size(450, 32);
             txtLoginPassword.TabIndex = 2;
             txtLoginPassword.TextAlign = HorizontalAlignment.Center;
             txtLoginPassword.UseSystemPasswordChar = true;
@@ -82,9 +82,9 @@
             btnLogin.FlatStyle = FlatStyle.Flat;
             btnLogin.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLogin.ForeColor = SystemColors.WindowText;
-            btnLogin.Location = new Point(12, 385);
+            btnLogin.Location = new Point(52, 395);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(530, 46);
+            btnLogin.Size = new Size(450, 46);
             btnLogin.TabIndex = 5;
             btnLogin.Text = "Entrar";
             btnLogin.UseVisualStyleBackColor = false;
@@ -107,7 +107,7 @@
             linkLabel1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel1.LinkColor = SystemColors.WindowText;
-            linkLabel1.Location = new Point(473, 434);
+            linkLabel1.Location = new Point(434, 444);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(68, 15);
             linkLabel1.TabIndex = 7;
@@ -119,7 +119,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(141, 137);
+            label4.Location = new Point(148, 136);
             label4.Name = "label4";
             label4.Size = new Size(270, 86);
             label4.TabIndex = 8;
@@ -132,7 +132,7 @@
             lblRecPassword.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             lblRecPassword.LinkBehavior = LinkBehavior.HoverUnderline;
             lblRecPassword.LinkColor = SystemColors.WindowText;
-            lblRecPassword.Location = new Point(12, 434);
+            lblRecPassword.Location = new Point(52, 444);
             lblRecPassword.Name = "lblRecPassword";
             lblRecPassword.Size = new Size(94, 15);
             lblRecPassword.TabIndex = 9;
@@ -144,7 +144,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label1.Location = new Point(17, 228);
+            label1.Location = new Point(52, 238);
             label1.Name = "label1";
             label1.Size = new Size(59, 25);
             label1.TabIndex = 10;
@@ -154,7 +154,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label2.Location = new Point(17, 305);
+            label2.Location = new Point(52, 315);
             label2.Name = "label2";
             label2.Size = new Size(64, 25);
             label2.TabIndex = 11;

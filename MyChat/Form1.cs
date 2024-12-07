@@ -35,7 +35,7 @@ namespace MyChat
             {
                 ValidarLogin validarLogin = new ValidarLogin(emailUser, passwordUser);
                 txtLoginUser.Clear();
-                txtLoginPassword.Clear();
+                txtLoginPassword.Clear();               
             }
             catch (Exception ex)
             {

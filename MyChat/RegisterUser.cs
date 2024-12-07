@@ -30,9 +30,9 @@ namespace MyChat
                 Command.ExecuteNonQuery();
                 MessageBox.Show("Usuário registrado com sucesso!");
             }
-            catch (SqlException e)
+            catch (SqlException ex)
             {
-                MessageBox.Show($"Erro ao tentar se conectar ao banco de dados: {e.Message}");
+                MessageBox.Show($"Erro ao tentar se conectar ao banco de dados: {ex.Message}");
             }
             finally
             {
